@@ -1,0 +1,301 @@
+/* ===========================
+   RESET + BASIC TYPOGRAPHY
+   =========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;  /* Smooth scrolling for in-page links */
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ===========
+   NAVBAR
+   =========== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004080;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar .logo {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+.navbar .nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.navbar .nav-links {
+  display: flex;
+}
+.navbar .nav-links li {
+  margin-left: 1.5rem;
+}
+.navbar .nav-links a {
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.navbar .nav-links a:hover {
+  color: #ffcc00;
+}
+.navbar .nav-links a.active {
+  color: #ffcc00;            /* Highlights the current section */
+  border-bottom: 2px solid #ffcc00;
+  padding-bottom: 2px;
+}
+
+/* =================
+   HERO SECTION
+   ================= */
+.hero {
+  position: relative;
+  background: url('https://lnct.ac.in/wp-content/uploads/2021/04/lnct-g-logo.png')
+    center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+.hero h1 {
+  font-size: 2.75rem;
+  margin-bottom: 0.75rem;
+}
+.hero p {
+  font-size: 1.25rem;
+}
+
+/* ====================
+   FILTER INPUT
+   ==================== */
+.filter-wrapper {
+  max-width: 400px;
+  margin: 1rem auto;
+  text-align: center;
+}
+#filterInput {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+/* =====================
+   GRID OF INSTITUTIONS
+   ===================== */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.grid-item {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.grid-item .logo-wrapper {
+  width: 100%;
+  padding-top: 1rem;
+}
+.grid-item img {
+  width: 80px;              /* uniform displayed width */
+  height: 80px;             /* uniform displayed height */
+  object-fit: contain;      /* preserve aspect ratio */
+  margin: 0 auto;
+}
+.grid-item span {
+  display: block;
+  padding: 1rem;
+  font-weight: bold;
+  color: #004080;
+  background-color: #f1f1f1;
+}
+
+/* =================
+   INFO SECTIONS
+   ================= */
+.info-section {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+.info-section .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.info-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #004080;
+  border-bottom: 2px solid #004080;
+  display: inline-block;
+  padding-bottom: 0.25rem;
+}
+.info-section p,
+.info-section ul {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.info-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* ===================
+   CONTACT SECTION
+   =================== */
+.contact-section {
+  background: url('https://lnct.ac.in/wp-content/uploads/2021/04/lnct-g-logo.png')
+    center/cover no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+.contact-section .content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.contact-section ul li {
+  margin-bottom: 0.75rem;
+}
+.contact-section strong {
+  color: #ffcc00;
+}
+
+/* =====================
+   BACK-TO-TOP BUTTON
+   ===================== */
+#backToTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #004080;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  display: none;            /* hidden by default */
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#backToTop:hover {
+  background-color: #003060;
+}
+
+/* ===========
+   FOOTER
+   =========== */
+ .footer {
+  background-color: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+.footer .quick-links {
+  background-color: #f1f1f1;
+  color: #004080;
+  padding: 0.75rem 0;
+}
+.footer .quick-links a {
+  color: #004080;
+  margin: 0 0.5rem;
+  transition: color 0.3s;
+}
+.footer .quick-links a:hover {
+  color: #ffcc00;
+}
+
+/* =====================
+   RESPONSIVE BEHAVIOR
+   ===================== */
+@media (max-width: 768px) {
+  .navbar .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #004080;
+    flex-direction: column;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in;
+  }
+  .navbar .nav-links.open {
+    max-height: 300px;
+  }
+  .navbar .nav-toggle {
+    display: block;
+  }
+  .navbar .nav-links li {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 4rem 1rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .grid-container {
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .grid-item span {
+    padding: 0.75rem;
+    font-size: 0.95rem;
+  }
+}

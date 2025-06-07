@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+  <!-- Root of this website -->
+  <url>
+    <loc>https://YOUR_DOMAIN_OR_GITHUB_PAGES/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- LNCT Group Institutions & Companies (all 30+) -->
+  <url><loc>https://jnctbhopal.ac.in</loc></url>
+  <url><loc>https://lnct.ac.in</loc></url>
+  <url><loc>https://lnctvu.ac.in</loc></url>
+  <url><loc>https://jnctpu.edu.in</loc></url>
+  <url><loc>https://jayantjaggery.com</loc></url>
+  <url><loc>https://indorelnmc.com</loc></url>
+  <url><loc>https://indorelnmc.in</loc></url>
+  <url><loc>https://ananjay.co.in</loc></url>
+  <url><loc>https://jncn.ac.in</loc></url>
+  <url><loc>https://lnctworldschools.com</loc></url>
+  <url><loc>https://cecbilaspur.ac.in</loc></url>
+  <url><loc>https://lncpbhopal.in</loc></url>
+  <url><loc>https://lncps.in</loc></url>
+  <url><loc>https://lnctbhopal.in</loc></url>
+  <url><loc>https://lnctuj.com</loc></url>
+  <url><loc>https://lncte.in</loc></url>
+  <url><loc>https://lncts.in</loc></url>
+  <url><loc>https://lnctbplindorecampus.in</loc></url>
+  <url><loc>https://kalchuricontractors.ltd</loc></url>
+  <url><loc>https://lnctrishiraj.ac.in</loc></url>
+  <url><loc>https://parvatisweetners.co.in</loc></url>
+  <url><loc>https://lnctsopindore.in</loc></url>
+  <url><loc>https://lnctmca.in</loc></url>
+  <url><loc>https://ananjaypharma.co.in</loc></url>
+  <url><loc>https://vitamax.co.in</loc></url>
+  <url><loc>https://clchomeopathy.in</loc></url>
+  <url><loc>https://dabraalcobrew.com</loc></url>
+  <url><loc>https://lnctguru.com</loc></url>
+  <url><loc>https://ipsbilaspur.com</loc></url>
+  <url><loc>https://lnctu.ac.in</loc></url>
+  <url><loc>https://lnayurvedcollege.com</loc></url>
+</urlset>
